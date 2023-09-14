@@ -1,9 +1,23 @@
 
 html{
   scroll-behavior: smooth;
-  transition: left 10s;;
-  
 }
+
+.name {
+  margin-left: -190px;
+  font-size:1.3em;
+}
+
+.Masters,.Diploma{
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.Masters_title, .Diploma_title, .title, .title-top{
+ 
+  font-weight: bold;
+  font-size: 20px;
+}
+
 
 
 
@@ -149,9 +163,10 @@ p {
   color: #666666;
   font-family: "Roboto", sans-serif;
   line-height: 1.929;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0px;
-  color: #888888;
+  color: #555353;
+  font-weight: bold;
 }
 
 /* line 85, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -200,8 +215,8 @@ h5 {
 
 /* line 116, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
 img {
-  max-width: 100%;
-  border-radius: 150px;
+  max-width: 35%;
+  border-radius: 100px;
 }
 
 /* line 119, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -3681,7 +3696,7 @@ ul {
 /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
 .course_details_area .title_top {
   margin-top: 60px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 13px;
 }
