@@ -3,9 +3,16 @@ html{
   scroll-behavior: smooth;
 }
 
+
+.about_img{
+  max-width: 100%;
+  margin-bottom: 300px;
+}
+
 .name {
   margin-left: -190px;
-  font-size:1.3em;
+  font-size:1.5em;
+  font-weight: bold
 }
 
 .Masters,.Diploma{
@@ -16,6 +23,112 @@ html{
  
   font-weight: bold;
   font-size: 20px;
+  color:rgb(210, 94, 10);
+}
+
+.sub_para{
+  font-weight: none;
+  font-size: 15px;
+}
+
+@media only screen and (min-width:1021px){
+  .name{
+    padding-left: 30px;
+  }
+
+}
+
+.dirname{
+  font-size:  20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#00008B;
+}
+
+body .bg-image{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+
+}
+
+
+#img_motive{
+ max-width: 60%;
+  height: auto;
+  margin-top: 40px;
+ 
+  
+}
+
+.back_img_motive{
+  background-image: linear-gradient( white, rgba(240, 242, 126, 0.586), white);
+  display:flex;
+  justify-content: center;
+  
+
+}
+.pass{
+  color: rgb(78, 168, 13);
+}
+
+.duration{
+  color:rgb(5, 73, 102)
+}
+
+.make_slider{
+  position: relative;
+  top: 40px;
+  width: 100%;
+  height:100vh;
+  background-image: url('/img/mdlogo/vice.jpg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: center;
+  animation: bgchange 20s linear infinite;
+}
+@keyframes bgchange{
+ 0%{
+    background-image:url('/img/mdlogo/annual7.jpg');
+  }
+  10%{
+    background-image:url('/img/mdlogo/annual4.jpg');
+  }
+  20%{
+    background-image:url('/img/mdlogo/annual1.jpg');
+  }
+  25%{
+    background-image:url('/img/mdlogo/annual2.jpg');
+  }
+  30%{
+    background-image:url('/img/mdlogo/annual3.jpg');
+  }
+  40%{
+    background-image:url('/img/mdlogo/annual4.jpg');
+  }
+  50%{
+    background-image:url('/img/mdlogo/annual5.jpg');
+  }
+  60%{
+    background-image:url('/img/mdlogo/annual6.jpg');
+  }
+  70%{
+    background-image:url('/img/mdlogo/annual8.jpg');
+  }
+  80%{
+    background-image:url('/img/mdlogo/annual9.jpg');
+  }
+}
+
+.courses{
+  position: relative;
+  max-width: 60%;
+}
+
+.blog1_para{
+  color: rgb(142, 5, 5);
 }
 
 
@@ -43,6 +156,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
+ 
 }
 
 /* line 9, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -160,12 +274,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 76, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
 p {
-  color: #666666;
-  font-family: "Roboto", sans-serif;
+  color: black;
+  font-family: "Math";
   line-height: 1.929;
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 0px;
-  color: #555353;
+  color: black;
   font-weight: bold;
 }
 
@@ -214,7 +328,7 @@ h5 {
 }
 
 /* line 116, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
-img {
+img  {
   max-width: 35%;
   border-radius: 100px;
 }
@@ -955,6 +1069,8 @@ ul {
 /* line 592, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
 .blog_item_img {
   position: relative;
+  
+  
 }
 
 /* line 595, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
@@ -1756,6 +1872,7 @@ ul {
   top: 0;
   width: 100%;
   z-index: 999;
+  height: 20%;
 }
 
 /* line 8, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2030,7 +2147,7 @@ ul {
 
 /* line 270, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .single_page_menu .main-menu-item ul li .nav-link {
-  color: #fff;
+  color: #000;
   font-size: 15px;
   padding: 0px 24px;
   font-family: "Roboto", sans-serif;
@@ -2716,7 +2833,7 @@ ul {
 
 /* line 159, E:/172 Etrain Education/172_Etrain_Education_html/sass/_feature_part.scss */
 .single_feature_padding {
-  padding-top: 140px;
+  padding-top: 30px;
 }
 
 @media (max-width: 576px) {
@@ -2743,7 +2860,7 @@ ul {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 159, E:/172 Etrain Education/172_Etrain_Education_html/sass/_feature_part.scss */
   .single_feature_padding {
-    padding-top: 70px;
+    padding-top: 30px;
   }
 }
 
@@ -2752,34 +2869,34 @@ ul {
 .learning_part {
   position: relative;
   z-index: 99;
-  padding: 189px 0px 210px;
+  padding: 189px 0px 50px;
 }
 
 @media (max-width: 576px) {
   /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_learning.scss */
   .learning_part {
-    padding: 70px 0px;
+    padding: 30px 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_learning.scss */
   .learning_part {
-    padding: 70px 0px;
+    padding: 30px 0px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_learning.scss */
   .learning_part {
-    padding: 70px 0px;
+    padding: 30px 0px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_learning.scss */
   .learning_part {
-    padding: 70px 0px;
+    padding: 30px 0px;
   }
 }
 
@@ -3699,6 +3816,7 @@ ul {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 13px;
+  color:rgb(210, 94, 10)
 }
 
 /* line 8, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
@@ -3713,6 +3831,7 @@ ul {
   margin-bottom: 13px;
   border-top: 1px solid #edeff2;
   padding-top: 30px;
+  color:rgb(210, 94, 10)
 }
 
 /* line 20, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
@@ -6196,6 +6315,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 300px;
 }
 
 /* line 5, E:/172 Etrain Education/172_Etrain_Education_html/sass/_breadcrumb.scss */
