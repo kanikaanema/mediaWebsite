@@ -196,52 +196,51 @@ body .bg-image {
   top: 40px;
   width: 100%;
   height: 100vh;
-  background-image: url('/img/mdlogo/vice.jpg');
+  background-image: url('img/mdlogo/annual7.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   animation: bgchange 20s linear infinite;
 }
-
 @keyframes bgchange {
   0% {
-    background-image: url('/img/mdlogo/annual7.jpg');
+    background-image: url('img/mdlogo/annual7.jpg');
   }
 
   10% {
-    background-image: url('/img/mdlogo/annual4.jpg');
+    background-image: url('img/mdlogo/annual4.jpg');
   }
 
   20% {
-    background-image: url('/img/mdlogo/annual1.jpg');
+    background-image: url('img/mdlogo/annual1.jpg');
   }
 
   25% {
-    background-image: url('/img/mdlogo/annual2.jpg');
+    background-image: url('img/mdlogo/annual2.jpg');
   }
 
   30% {
-    background-image: url('/img/mdlogo/annual3.jpg');
+    background-image: url('img/mdlogo/annual3.jpg');
   }
 
   40% {
-    background-image: url('/img/mdlogo/annual4.jpg');
+    background-image: url('img/mdlogo/annual4.jpg');
   }
 
   50% {
-    background-image: url('/img/mdlogo/annual5.jpg');
+    background-image: url('img/mdlogo/annual5.jpg');
   }
 
   60% {
-    background-image: url('/img/mdlogo/annual6.jpg');
+    background-image: url('img/mdlogo/annual6.jpg');
   }
 
   70% {
-    background-image: url('/img/mdlogo/annual8.jpg');
+    background-image: url('img/mdlogo/annual8.jpg');
   }
 
   80% {
-    background-image: url('/img/mdlogo/annual9.jpg');
+    background-image: url('img/mdlogo/annual9.jpg');
   }
 }
 
@@ -2216,7 +2215,7 @@ ul {
 
 /* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
-  color: #0c2e60;
+  color: BLACK;
   font-size: 15px;
   padding: 0px 24px;
   font-family: "Roboto", sans-serif;
