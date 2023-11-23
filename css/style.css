@@ -4,9 +4,9 @@ html {
 
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
-  .test_img{
-    max-width: 10%;
+@media only screen and (min-width:490px){
+  .test_img {
+    width: 4px;
   }
 }
 .blog_img {
@@ -255,9 +255,15 @@ body .bg-image {
   }
 }
 
-.courses {
+.courses  {
   position: relative;
-  max-width: 60%;
+  max-width: 30%;
+}
+
+@media only screen and(max-width: 590px){
+  .courses{
+    width: 1%;
+  }
 }
 
 .blog1_para {
@@ -1374,7 +1380,7 @@ ul {
   display: block;
   color: #fff;
   background-color: #ff7e5f;
-  padding: 8px 15px;
+  padding: 4px 15px;
   border-radius: 5px;
 }
 
@@ -1382,15 +1388,15 @@ ul {
 
   /* line 595, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
   .blog_item_img .blog_item_date {
-    bottom: -20px;
-    left: 40px;
-    padding: 13px 30px;
+    bottom: -44px;
+    left: 21px;
+    padding: -1px 30px;
   }
 }
 
 /* line 611, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
 .blog_item_img .blog_item_date h3 {
-  font-size: 22px;
+  font-size: 13px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 0;
@@ -1407,7 +1413,7 @@ ul {
 
 /* line 623, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
 .blog_item_img .blog_item_date p {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 0;
   color: #fff;
 }
@@ -2235,6 +2241,30 @@ ul {
 .test_img{
   max-width: 50%;
 }
+@media only screen and (max-width: 1199px) {
+  .test_img{
+    max-width:30%;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .test_img{
+    max-width:40%;
+
+  }
+}
+
+/* @media only screen and (min-width: 576px) {
+  .test_img{
+    max-width:50%;
+  } */
+/* }/ */
+@media only screen and (max-width:576px){
+  .test_img {
+    max-width: 15%;
+    margin-top: 3px;
+    border-radius: 100%;
+  }
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
@@ -2917,7 +2947,8 @@ ul {
     bottom: 0;
     top: 15%;
     background-repeat: no-repeat;
-    height: 80%;
+    height: 53%;
+    width:50%;
    
   }
 }
