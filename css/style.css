@@ -4,6 +4,37 @@ html {
 
 }
 
+.top-header{
+  position:absolute;
+  top:2px;
+  height: 40px;
+  width:100%;
+  background-color: blue;
+}
+
+/* #navbar-flex{
+  margin-left: -95px;
+
+} */
+@media only screen and (width<700px){
+  #navbar-flex{
+  margin-left: 80px;
+}
+}
+
+@media only screen and (width<590px){
+  #navbar-flex{
+  margin-left: -30px;
+} 
+} 
+
+@media only screen and (width< 545px){
+  div.name{
+   
+  }
+}
+
+
 @media only screen and (min-width:490px){
   .test_img {
     width: 4px;
@@ -49,7 +80,8 @@ html {
 
   div.name {
     font-size: 15px;
-    margin-left: -350px;
+    margin-left: 70px;
+    margin-top:-90px;
 
   }
 
@@ -69,28 +101,31 @@ html {
 
 }
 
-@media only screen and (max-width: 550px) {
+/* @media only screen and (max-width: 550px) {
   div.name {
-    margin-left: -1px;
-  }
+    margin-left: 
+  } */
+/* } */
 
   .navbar-toggler {
     
     position: absolute;
-    bottom: 60px;
+    bottom: 20px;
     background-image: none;
-   
-    
+  }
 
-
+  @media only screen and(width<710px){
+    .navbar-toggler{
+     bottom:30px;
+    }
   }
 
   .navbar-toggler-icon {
-    background-color: white;
+  
   }
 
  
-}
+
 
 marquee {
   background-color: rgb(225, 94, 42);
@@ -2182,10 +2217,11 @@ ul {
 .main_menu {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 30px;
   width: 100%;
   z-index: 999;
-  height: 20%
+  height: 15%;
+  background-color:#f9b700
 }
 
 /* line 8, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2539,7 +2575,7 @@ ul {
   position: fixed;
   z-index: 9999 !important;
   width: 100%;
-  background-color: #fff;
+ 
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
   top: 0;
 }
