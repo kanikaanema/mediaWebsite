@@ -4,12 +4,28 @@ html {
 
 }
 
+.top{
+  height:19vh;
+  background-color: rgb(255, 213, 0);
+  position:absolute;
+  width:100%;
+  top:40px
+}
+
+.university_logo{
+  max-width: 100px;
+  margin-left: 77%;
+  margin-top: -125px;
+
+}
+
 .top-header{
   position:absolute;
   top:2px;
   height: 40px;
   width:100%;
-  background-color: blue;
+  background-color: rgba(5, 3, 58, 0.888);
+  color:wheat
 }
 
 /* #navbar-flex{
@@ -57,20 +73,31 @@ html {
 
 
 .logo {
-  padding-left: 0px;
-  float: left;
+  max-width: 40%;
+    padding-left: 0%;
+    margin-left: 81%;
+    margin-top: -1px;
 }
+ 
+
 
 .name {
-  margin-left: -190px;
-  font-size: 1.5em;
-  font-weight: bold
+  margin-left: -10px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: -7%;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .sub_para {
-  font-weight: none;
-  font-size: 15px;
-  font-family:  "Segoe UI",  "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 27%;
+  color: rgba(36, 34, 157, 0.851);
+  margin-top: -20px;
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -216,7 +243,7 @@ body .bg-image {
 #img_motive {
   max-width: 60%;
   height: auto;
-  margin-top: 40px;
+  margin-top: 150px;
 
 
 }
@@ -2217,11 +2244,11 @@ ul {
 .main_menu {
   position: absolute;
   left: 0;
-  top: 30px;
+  top: 153px;
   width: 100%;
   z-index: 999;
   height: 15%;
-  background-color:#f9b700
+  background-color:rgb(12, 159, 192);
 }
 
 /* line 8, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2270,7 +2297,7 @@ ul {
 .main_menu .main-menu-item ul li .nav-link {
   color: BLACK;
   font-size: 15px;
-  padding: 0px 24px;
+  padding: 0px 40px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -2318,9 +2345,9 @@ ul {
 /* line 51, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul .btn_1 {
   color: #fff;
-  font-size: 14px;
-  padding: 11.5px 33px;
-  margin-left: 41px;
+  font-size: 20px;
+  padding: 10.5px 30px;
+  margin-left:330px;
 }
 
 /* line 67, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -6941,7 +6968,7 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 300px;
+  margin-top: 450px;
 }
 
 /* line 5, E:/172 Etrain Education/172_Etrain_Education_html/sass/_breadcrumb.scss */
