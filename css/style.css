@@ -13,17 +13,24 @@ html {
 }
 
 .university_logo{
-  max-width: 100px;
+  max-width: 8%;
   margin-left: 77%;
-  margin-top: -125px;
-
-}
-
-.top-header{
-  position:absolute;
-  top:2px;
-  height: 40px;
-  width:100%;
+  margin-top: -95px;z
+  .university_logo{
+    @media only screen and (width<1180px){
+      margin-left: 90%;
+      
+    }
+    }
+  }
+  
+  display:inline-block
+  
+  .top-header{
+    position:absolute;
+    top:2px;
+    height: 40px;
+    width:100%;
   background-color: rgba(5, 3, 58, 0.888);
   color:wheat
 }
@@ -73,10 +80,16 @@ html {
 
 
 .logo {
-  max-width: 40%;
+  max-width: 35%;
     padding-left: 0%;
     margin-left: 81%;
     margin-top: -1px;
+}
+
+@media only screen and(width<1100px){
+  .logo{
+padding-left:100%;
+  }
 }
  
 
@@ -101,9 +114,9 @@ html {
 }
 
 @media only screen and (max-width: 700px) {
-  .logo {
+  /* .logo {
     width: 20%
-  }
+  } */
 
   div.name {
     font-size: 15px;
