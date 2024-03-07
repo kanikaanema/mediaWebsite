@@ -2,11 +2,21 @@ html {
   /* scroll-behavior: smooth; */
 }
 
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  .carousel-img{
+    border-radius: 0px;
+  }
 
 .top-header .since{
   color: white;
-  padding-left: 600px;
-  font-weight:bold
+  width:100px;
+  
+ display:block;
+ margin:0 auto;
 }
 
 .admission_course{
@@ -109,7 +119,7 @@ html {
  
 
 
-@media only screen and (max-width: 1000px)  {
+@media only screen and (min-width: 620px) and (max-width:1000px) {
   #logo {
     max-width: 70px
   }
@@ -118,19 +128,28 @@ html {
   }
 
   .name {
-    font-size:18px;
+    font-size:25px;
 
   }
 
    .sub_para {
-    font-size: 13px;
+    font-size: 17px;
     text-align:center;
   }
 }
-@media only screen and(max-width:500px){
 
+@media only screen and (min-width: 500px) and (max-width: 620px){
+  .name {
+    font-size:20px;
+    position:relative;
+    top:12px;
+
+  }
+  .sub_para{
+    font-size:13px;
+    padding-top:13px;
+  }
 }
-
 
 
  
@@ -2402,7 +2421,7 @@ ul {
 
 /* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
-  color: white;
+  color: #fff;
     font-size: 20px;
     padding: 0px 40px;
     font-family: sans-serif;
@@ -2512,10 +2531,10 @@ ul {
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
-    left: 0;
-    top: 71px;
+    left: 40px;
+    top: 50px;
     width: 100%;
-    background-color: #fff;
+    background-color: rgba(5, 3, 58, 0.888);
     text-align: center !important;
   }
 
@@ -2577,9 +2596,9 @@ ul {
     z-index: 9999 !important;
     position: absolute;
     left: 0;
-    top: 71px;
+    top: 50px;
     width: 100%;
-    background-color: #fff;
+    background-color: rgba(5, 3, 58, 0.888);
     text-align: center !important;
   }
 
@@ -2639,9 +2658,9 @@ ul {
     z-index: 9999 !important;
     position: absolute;
     left: 0;
-    top: 71px;
+    top: 50px;
     width: 100%;
-    background-color: red;
+    background-color: rgba(5, 3, 58, 0.888);
     text-align: center !important;
   }
 
